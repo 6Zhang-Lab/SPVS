@@ -1,0 +1,7 @@
+column,description,required
+sample,Spatial section or library identifier,yes
+spot_id,Exact Visium barcode or spot identifier,yes
+x,Spatial x coordinate in the same coordinate system as prediction,yes
+y,Spatial y coordinate in the same coordinate system as prediction,yes
+anatomical_compartment,Morphology-anchored plaque compartment,required when no binary mask is provided
+reference_boundary,Independent binary PVI reference,optional when anatomical compartments are provided
