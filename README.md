@@ -1,5 +1,7 @@
 # SPVS: an interpretable spatial model of plaque vulnerability
 
+> **Project status:** The SPVS package and its associated analytical framework are currently under peer review. The code is provided to support transparent evaluation and reproducibility.
+
 This repository provides the core code used to derive, apply and evaluate the SPVS model. The development scripts have been consolidated into a small set of function-oriented R files. The pre-built `SPVS_FINAL.tar.gz` package can be installed directly for spatial boundary prediction.
 
 ![SPVS workflow](assets/SPVS_workflow_overview.jpeg)
@@ -74,3 +76,7 @@ The workflow applies the fixed SPVS molecular programs, infers plaque-core proba
 | `R/SPVSWorkflow.R` | End-to-end analysis wrapper |
 
 Minimal runnable examples are provided in `examples/`.
+
+## License
+
+This project is released under the MIT License. See `LICENSE` for details.
